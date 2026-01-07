@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
+
+  <menus>
+    <menu id="AudiCiClassWizard" xsi:type="WebPageMenuNode" _delta="define">
+      <rank>50</rank>
+      <parent>AdminTools</parent>
+      <label>CI Class Wizard</label>
+      <description>快速创建新的 CI 类模块</description>
+      <url>$extensions/audi-ci-class-wizard/pages/ci-class-wizard.php</url>
+      <target>_self</target>
+    </menu>
+    <menu id="AudiAddCiAttrWizard" xsi:type="WebPageMenuNode" _delta="define">
+      <rank>51</rank>
+      <parent>AdminTools</parent>
+      <label>扩展CI属性向导</label>
+      <description>为已有 CI 类新增字段属性</description>
+      <url>$extensions/audi-ci-class-wizard/pages/add-attr-wizard.php</url>
+      <target>_self</target>
+    </menu>
+  </menus>
+
+</itop_design>
